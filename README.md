@@ -5,10 +5,10 @@
 ### Plugins
 | Key           | Description                               | Mode   |
 |---------------|-------------------------------------------|--------|
-| `<leader>`    | WhichKey (keybinds popup, shows up after 1s) | Normal |
-| `<leader>e`   | NvimTree (side file explorer)              | Normal |
-| `<leader>f` / `<leader>s(menu)` | Telescope (find files, grep text, and more) | Normal |
-| `<leader>;`   | Alpha (dashboard)                         | Normal |
+| `Space`       | WhichKey (keybinds popup, shows up after 1s) | Normal |
+| `Space + e`   | NvimTree (side file explorer)              | Normal |
+| `Space + f` / `Space + s(menu)` | Telescope (find files, grep text, and more) | Normal |
+| `Space + ;`   | Alpha (dashboard)                         | Normal |
 
 ### LSP
 | Key           | Description                               | Mode   |
@@ -26,44 +26,44 @@
 ### Editing
 | Key           | Description                               | Mode            |
 |---------------|-------------------------------------------|-----------------|
-| `<leader>/`   | Comment                                   | Normal, Visual  |
+| `Space + /`   | Comment                                   | Normal, Visual  |
 | `gb`          | Block comment                             | Visual          |
-| `<M-k>`       | Move line(s) up                           | Normal, Visual  |
-| `<M-j>`       | Move line(s) down                         | Normal, Visual  |
+| `<Option-k>`  | Move line(s) up                           | Normal, Visual  |
+| `<Option-j>`  | Move line(s) down                         | Normal, Visual  |
 
 ### Completion
 | Key           | Description                               | Mode   |
 |---------------|-------------------------------------------|--------|
-| `<C-space>`   | Show completion menu                      | Insert |
-| `<CR>` / `<C-y>` | Confirm                                | Insert |
-| `<C-e>`       | Abort                                     | Insert |
-| `<C-k>` / `<Up>` / `<Tab>` | Select previous item          | Insert |
-| `<C-j>` / `<Down>` / `<S-Tab>` | Select next item          | Insert |
-| `<C-d>`       | Scroll docs up                            | Insert |
-| `<C-f>`       | Scroll docs down                          | Insert |
-| `<CR>` / `<Tab>` | Jump to next jumpable in a snippet      | Insert |
-| `<S-Tab>`     | Jump to previous jumpable in a snippet    | Insert |
+| `<Ctrl-space>`   | Show completion menu                      | Insert |
+| `<CarigeReturn>` / `<Ctrl-y>` | Confirm                                | Insert |
+| `<Ctrl-e>`       | Abort                                     | Insert |
+| `<Ctrl-k>` / `<Up>` / `<Tab>` | Select previous item          | Insert |
+| `<Ctrl-j>` / `<Down>` / `<S-Tab>` | Select next item          | Insert |
+| `<Ctrl-d>`       | Scroll docs up                            | Insert |
+| `<Ctrl-f>`       | Scroll docs down                          | Insert |
+| `<CarigeReturn>` / `<Tab>` | Jump to next jumpable in a snippet      | Insert |
+| `<Shift-Tab>`     | Jump to previous jumpable in a snippet    | Insert |
 
 ### Windows
 | Key           | Description                               | Mode   |
 |---------------|-------------------------------------------|--------|
-| `<C-h>`       | Go to left window                         | Normal |
-| `<C-j>`       | Go to lower window                        | Normal |
-| `<C-k>`       | Go to upper window                        | Normal |
-| `<C-l>`       | Go to right window                        | Normal |
-| `<C-Up>`      | Decrease window height                    | Normal |
-| `<C-Down>`    | Increase window height                    | Normal |
-| `<C-Left>`    | Decrease window width                     | Normal |
-| `<C-Right>`   | Increase window width                     | Normal |
+| `<Ctrl-h>`       | Go to left window                         | Normal |
+| `<Ctrl-j>`       | Go to lower window                        | Normal |
+| `<Ctrl-k>`       | Go to upper window                        | Normal |
+| `<Ctrl-l>`       | Go to right window                        | Normal |
+| `<Ctrl-Up>`      | Decrease window height                    | Normal |
+| `<Ctrl-Down>`    | Increase window height                    | Normal |
+| `<Ctrl-Left>`    | Decrease window width                     | Normal |
+| `<Ctrl-Right>`   | Increase window width                     | Normal |
 
 ### Miscellaneous
 | Key           | Description                               | Mode   |
 |---------------|-------------------------------------------|--------|
-| `<leader>Lc`  | Edit `config.lua`                         | Normal |
-| `<leader>h`   | Clear search highlighting                 | Normal |
-| `<leader>sh`  | Search through `:help`                    | Normal |
-| `<leader>sr`  | Open recent files                         | Normal |
-| `<leader>pS`  | List installed plugins                    | Normal |
+| `Space + Lc`  | Edit `config.lua`                         | Normal |
+| `Spacke + h`  | Clear search highlighting                 | Normal |
+| `Space + sh`  | Search through `:help`                    | Normal |
+| `Space + sr`  | Open recent files                         | Normal |
+| `Space + pS`  | List installed plugins                    | Normal |
 
 ### Moving
 | Key           | Description                               |
