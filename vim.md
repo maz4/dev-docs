@@ -62,16 +62,17 @@
 | `Space + sh`  | Search through `:help`                    | Normal |
 | `Space + sr`  | Open recent files                         | Normal |
 | `Space + pS`  | List installed plugins                    | Normal |
-| `/` `n / N`   | Open file word search - press enter to start search. Use `n` and `N` to go forward and backward| Normal|
+| `/` `n / N`   | Currently opened and focused file word search - press enter to start search. Use `n` and `N` to go forward and backward | Normal |
 | `Ctrl + w + w` | Move focus between tree, open tab, and other open buffers | Normal |
+| `Ctrl + /`    | Toggle pop up terminal                    | Normal |
 
 ### Moving
-| Key           | Description                               |
-|---------------|-------------------------------------------|
-| `Ctrl + d`    | Move cursor and screen down 1/2 page      |
-| `Ctrl + u`    | Move cursor and screen up 1/2 page        |
-| `Ctrl + i`    | Go to newer position in history jump list |
-| `Ctrl + o`    | Go to older position in history jump list |
+| Key           | Description                               | Mode   |
+|---------------|-------------------------------------------|--------|
+| `Ctrl + d`    | Move cursor and screen down 1/2 page      | Normal |
+| `Ctrl + u`    | Move cursor and screen up 1/2 page        | Normal |
+| `Ctrl + i`    | Go to newer position in history jump list | Normal |
+| `Ctrl + o`    | Go to older position in history jump list | Normal |
 
 ### Macros
 | Key           | Description                               |
